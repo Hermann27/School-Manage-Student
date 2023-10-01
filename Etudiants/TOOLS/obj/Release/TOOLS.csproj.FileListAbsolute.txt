@@ -1,0 +1,5 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\TOOLS\bin\Release\TOOLS.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\TOOLS\bin\Release\TOOLS.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\TOOLS\obj\Release\TOOLS.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\TOOLS\obj\Release\TOOLS.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\TOOLS\obj\Release\TOOLS.csprojResolveAssemblyReference.cache

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E9530B5-727A-4780-816B-680632022C33}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publier\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GUI.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ComponentFactory.Krypton.Toolkit, Version=4.4.0.0, Culture=neutral, PublicKeyToken=a87e673e9ecb6e8e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Component Factory\Krypton Toolkit 4.4.0\Bin\ComponentFactory.Krypton.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.4.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\NV\Etudiants\GUI\bin\Debug\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormEntresLivres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEntresLivres.Designer.cs">
+      <DependentUpon>FormEntresLivres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFournisseur.Designer.cs">
+      <DependentUpon>FormFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMessageBox.Designer.cs">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListPrets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListPrets.Designer.cs">
+      <DependentUpon>FormListPrets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListLivres.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListLivres.Designer.cs">
+      <DependentUpon>FormListLivres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormListEtudiants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormListEtudiants.Designer.cs">
+      <DependentUpon>FormListEtudiants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDomaines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDomaines.Designer.cs">
+      <DependentUpon>FormDomaines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormClasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormClasses.Designer.cs">
+      <DependentUpon>FormClasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrets.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrets.Designer.cs">
+      <DependentUpon>FormPrets.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLivre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLivre.Designer.cs">
+      <DependentUpon>FormLivre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDetails.Designer.cs">
+      <DependentUpon>FormDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEtudiants.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEtudiants.Designer.cs">
+      <DependentUpon>FormEtudiants.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.cs">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormEntresLivres.resx">
+      <DependentUpon>FormEntresLivres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFournisseur.resx">
+      <DependentUpon>FormFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMessageBox.resx">
+      <DependentUpon>FrmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListPrets.resx">
+      <DependentUpon>FormListPrets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListLivres.resx">
+      <DependentUpon>FormListLivres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormListEtudiants.resx">
+      <DependentUpon>FormListEtudiants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDomaines.resx">
+      <DependentUpon>FormDomaines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormClasses.resx">
+      <DependentUpon>FormClasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrets.resx">
+      <DependentUpon>FormPrets.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLivre.resx">
+      <DependentUpon>FormLivre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDetails.resx">
+      <DependentUpon>FormDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEtudiants.resx">
+      <DependentUpon>FormEtudiants.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\NV\Etudiants\BLL\BLL.csproj">
+      <Project>{06b20aa3-fcbc-4789-8982-10de78942cff}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NV\Etudiants\BO\BO.csproj">
+      <Project>{a73bc6cd-9daa-4c25-988f-cf84cc09d82c}</Project>
+      <Name>BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\NV\Etudiants\DAL\DAL.csproj">
+      <Project>{77c958cb-c224-4158-8acc-f408fafd9ae6}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Rapport\Rapport.csproj">
+      <Project>{a4816ca1-e7b0-4c8f-89da-00bd9b76ddd0}</Project>
+      <Name>Rapport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TOOLS\TOOLS.csproj">
+      <Project>{d47fdf7b-f2f8-406f-bcfb-067e97ad2276}</Project>
+      <Name>TOOLS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14_pencil.png" />
+    <Content Include="Resources\1.jpg" />
+    <Content Include="Resources\10.jpg" />
+    <Content Include="Resources\11.jpg" />
+    <Content Include="Resources\12.jpg" />
+    <Content Include="Resources\13.jpg" />
+    <Content Include="Resources\14.jpg" />
+    <Content Include="Resources\15.jpg" />
+    <Content Include="Resources\16.jpg" />
+    <Content Include="Resources\17.jpg" />
+    <Content Include="Resources\19486.png" />
+    <Content Include="Resources\2.jpg" />
+    <Content Include="Resources\3.jpg" />
+    <Content Include="Resources\4.jpg" />
+    <Content Include="Resources\5.jpg" />
+    <Content Include="Resources\6.jpg" />
+    <Content Include="Resources\7.jpg" />
+    <Content Include="Resources\8.jpg" />
+    <Content Include="Resources\9.jpg" />
+    <Content Include="Resources\agt_action_success.png" />
+    <None Include="Resources\agt_action_success1.png" />
+    <None Include="Resources\agt_action_success2.png" />
+    <None Include="Resources\agt_print.png" />
+    <Content Include="Resources\arton1118.jpg" />
+    <Content Include="Resources\billetage.png" />
+    <Content Include="Resources\btAjouter22.png" />
+    <Content Include="Resources\btAjouter221.png" />
+    <Content Include="Resources\btAjouter222.png" />
+    <Content Include="Resources\btAjouter32.png" />
+    <Content Include="Resources\btApercu22.png" />
+    <Content Include="Resources\btApercu32.png" />
+    <Content Include="Resources\btEnregistrer22.png" />
+    <Content Include="Resources\btEnregistrer32.png" />
+    <Content Include="Resources\btFermer22.png" />
+    <Content Include="Resources\btFermer32.png" />
+    <Content Include="Resources\btFiltre22.png" />
+    <Content Include="Resources\btFiltre32.png" />
+    <Content Include="Resources\btFlecheBas32.png" />
+    <Content Include="Resources\btFlecheHaut32.png" />
+    <Content Include="Resources\btFlecheHaut321.png" />
+    <Content Include="Resources\btImprimer22.png" />
+    <Content Include="Resources\btImprimer32.png" />
+    <Content Include="Resources\btInfo32.png" />
+    <Content Include="Resources\btModifier22.png" />
+    <Content Include="Resources\btModifier32.png" />
+    <Content Include="Resources\btn_valider.gif" />
+    <Content Include="Resources\btRepertoireA22.png" />
+    <Content Include="Resources\btRepertoireA32.png" />
+    <Content Include="Resources\btRepertoireB22.png" />
+    <Content Include="Resources\btRepertoireB32.png" />
+    <Content Include="Resources\btRetour22.png" />
+    <Content Include="Resources\btRetour32.png" />
+    <Content Include="Resources\btSupprimer22.png" />
+    <Content Include="Resources\btSupprimer32.png" />
+    <None Include="Resources\btSupprimer321.png" />
+    <None Include="Resources\cancel.png" />
+    <Content Include="Resources\checked_user-512.png" />
+    <Content Include="Resources\Configuration.gif" />
+    <Content Include="Resources\cour.jpg" />
+    <Content Include="Resources\criticalind_active.gif" />
+    <Content Include="Resources\delete_161.ico" />
+    <None Include="Resources\download.png" />
+    <Content Include="Resources\deluser.png" />
+    <Content Include="Resources\e-mail-enveloppe-icone-9553-32.png" />
+    <None Include="Resources\edit_add.png" />
+    <Content Include="Resources\edituser.png" />
+    <Content Include="Resources\edituser1.png" />
+    <Content Include="Resources\edit_bleu.gif" />
+    <Content Include="Resources\ExEtranger_frm.BackgroundImage1.png" />
+    <Content Include="Resources\fichiers ini.png" />
+    <None Include="Resources\fileshare.png" />
+    <Content Include="Resources\find.png" />
+    <Content Include="Resources\foldeopen_16.ico" />
+    <None Include="Resources\folder_new.png" />
+    <Content Include="Resources\gpr.png" />
+    <Content Include="Resources\group-512.png" />
+    <Content Include="Resources\group-5121.png" />
+    <Content Include="Resources\grp.png" />
+    <Content Include="Resources\highlight.png" />
+    <None Include="Resources\highlight1.png" />
+    <Content Include="Resources\Icone_imprimer.gif" />
+    <Content Include="Resources\Image2.Image.png" />
+    <Content Include="Resources\Image7.Image.png" />
+    <None Include="Resources\linux vs windows.jpg" />
+    <Content Include="Resources\images.jpg" />
+    <None Include="Resources\Information.JPG" />
+    <Content Include="Resources\livre.jpeg" />
+    <Content Include="Resources\livre.jpg" />
+    <Content Include="Resources\logo_waza.gif" />
+    <Content Include="Resources\loupe.gif" />
+    <None Include="Resources\mail_find.png" />
+    <None Include="Resources\mail_delete.png" />
+    <Content Include="Resources\NoVehicule.jpg" />
+    <None Include="Resources\osama.jpg3.jpg" />
+    <Content Include="Resources\Papier peint Waza.bmp" />
+    <None Include="Resources\ph-10005.jpg" />
+    <Content Include="Resources\password-512.png" />
+    <Content Include="Resources\quitter.png" />
+    <Content Include="Resources\quitter1.png" />
+    <Content Include="Resources\save_16.ico" />
+    <None Include="Resources\search.png" />
+    <Content Include="Resources\shovel-512.png" />
+    <Content Include="Resources\shovel-512123.png" />
+    <Content Include="Resources\shovel-5123.png" />
+    <Content Include="Resources\shovel-5125.png" />
+    <Content Include="Resources\shovel-5126.png" />
+    <Content Include="Resources\shovel-51263.png" />
+    <Content Include="Resources\shovel-5127.png" />
+    <Content Include="Resources\shovel-5129.png" />
+    <Content Include="Resources\sortie.gif" />
+    <None Include="Resources\trash.png" />
+    <None Include="Resources\TITAN %284%29.jpg" />
+    <Content Include="Resources\votre_solution_sage copy.jpg" />
+    <Content Include="Resources\votre_solution_sage.jpg" />
+    <Content Include="Resources\WazaSolutions.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

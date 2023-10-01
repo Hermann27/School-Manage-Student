@@ -1,0 +1,31 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\GUI.exe.config
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\GUI.exe
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\GUI.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\DAL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\bin\Release\DAL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.csprojResolveAssemblyReference.cache
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.Form1.resources
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.Properties.Resources.resources
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.csproj.GenerateResource.Cache
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.exe
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\GUI\obj\Release\GUI.pdb
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.csprojResolveAssemblyReference.cache
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.Form2.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormGroupe.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormListPrets.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormListLivres.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormListEtudiants.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormDomaines.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormClasses.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormPrets.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormLivre.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.Form1.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FormEtudiants.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FrmTesting.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.FrmUser.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.MDIParent1.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.Properties.Resources.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI._Splash.resources
+D:\Mes Projets\Etudiants\GUI\obj\Release\GUI.csproj.GenerateResource.Cache

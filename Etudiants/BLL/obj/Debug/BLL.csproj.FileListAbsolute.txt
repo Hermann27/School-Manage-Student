@@ -1,0 +1,19 @@
+H:\Etudiants\BLL\bin\Debug\BLL.dll
+H:\Etudiants\BLL\bin\Debug\BLL.pdb
+H:\Etudiants\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+H:\Etudiants\BLL\obj\Debug\BLL.dll
+H:\Etudiants\BLL\obj\Debug\BLL.pdb
+D:\Mes Projets\Etudiants\BLL\bin\Debug\BLL.dll
+D:\Mes Projets\Etudiants\BLL\bin\Debug\BLL.pdb
+D:\Mes Projets\Etudiants\BLL\bin\Debug\BO.dll
+D:\Mes Projets\Etudiants\BLL\bin\Debug\DAL.dll
+D:\Mes Projets\Etudiants\BLL\bin\Debug\TOOLS.dll
+D:\Mes Projets\Etudiants\BLL\bin\Debug\MySql.Data.dll
+D:\Mes Projets\Etudiants\BLL\bin\Debug\BO.pdb
+D:\Mes Projets\Etudiants\BLL\bin\Debug\DAL.pdb
+D:\Mes Projets\Etudiants\BLL\bin\Debug\TOOLS.pdb
+D:\Mes Projets\Etudiants\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+D:\Mes Projets\Etudiants\BLL\obj\Debug\BLL.dll
+D:\Mes Projets\Etudiants\BLL\obj\Debug\BLL.pdb
+D:\Mes Projets\Etudiants\BLL\bin\Debug\Rapport.exe
+D:\Mes Projets\Etudiants\BLL\bin\Debug\Rapport.pdb

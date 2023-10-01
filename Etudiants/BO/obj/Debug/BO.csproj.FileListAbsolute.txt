@@ -1,0 +1,14 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\bin\Debug\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\bin\Debug\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Debug\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Debug\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+H:\Etudiants\BO\bin\Debug\BO.dll
+H:\Etudiants\BO\bin\Debug\BO.pdb
+H:\Etudiants\BO\obj\Debug\BO.csprojResolveAssemblyReference.cache
+H:\Etudiants\BO\obj\Debug\BO.dll
+H:\Etudiants\BO\obj\Debug\BO.pdb
+D:\Mes Projets\Etudiants\BO\bin\Debug\BO.dll
+D:\Mes Projets\Etudiants\BO\bin\Debug\BO.pdb
+D:\Mes Projets\Etudiants\BO\obj\Debug\BO.dll
+D:\Mes Projets\Etudiants\BO\obj\Debug\BO.pdb

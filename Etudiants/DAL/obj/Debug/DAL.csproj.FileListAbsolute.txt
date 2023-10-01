@@ -1,0 +1,28 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\DAL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\DAL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Debug\DAL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Debug\DAL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\MySql.Data.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\TOOLS.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Debug\TOOLS.pdb
+H:\Etudiants\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+H:\Etudiants\DAL\obj\Debug\DAL.dll
+H:\Etudiants\DAL\bin\Debug\DAL.dll
+H:\Etudiants\DAL\bin\Debug\DAL.pdb
+H:\Etudiants\DAL\bin\Debug\BO.dll
+H:\Etudiants\DAL\bin\Debug\TOOLS.dll
+H:\Etudiants\DAL\bin\Debug\BO.pdb
+H:\Etudiants\DAL\bin\Debug\TOOLS.pdb
+H:\Etudiants\DAL\obj\Debug\DAL.pdb
+D:\Mes Projets\Etudiants\DAL\bin\Debug\DAL.dll
+D:\Mes Projets\Etudiants\DAL\bin\Debug\DAL.pdb
+D:\Mes Projets\Etudiants\DAL\bin\Debug\BO.dll
+D:\Mes Projets\Etudiants\DAL\bin\Debug\TOOLS.dll
+D:\Mes Projets\Etudiants\DAL\bin\Debug\BO.pdb
+D:\Mes Projets\Etudiants\DAL\bin\Debug\TOOLS.pdb
+D:\Mes Projets\Etudiants\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\Mes Projets\Etudiants\DAL\obj\Debug\DAL.dll
+D:\Mes Projets\Etudiants\DAL\obj\Debug\DAL.pdb

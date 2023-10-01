@@ -1,0 +1,5 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Release\DAL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\bin\Release\DAL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Release\DAL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Release\DAL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\DAL\obj\Release\DAL.csprojResolveAssemblyReference.cache

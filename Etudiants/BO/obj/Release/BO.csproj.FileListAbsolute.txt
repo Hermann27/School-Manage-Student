@@ -1,0 +1,5 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\bin\Release\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\bin\Release\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Release\BO.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Release\BO.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BO\obj\Release\BO.csprojResolveAssemblyReference.cache

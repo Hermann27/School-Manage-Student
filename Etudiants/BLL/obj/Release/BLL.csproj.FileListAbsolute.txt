@@ -1,0 +1,5 @@
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BLL\bin\Release\BLL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BLL\bin\Release\BLL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BLL\obj\Release\BLL.dll
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BLL\obj\Release\BLL.pdb
+E:\Users\couakam\Documents\Visual Studio 11\Projects\Etudiants\BLL\obj\Release\BLL.csprojResolveAssemblyReference.cache
